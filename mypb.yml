@@ -11,8 +11,11 @@
        name: apache2
        state: present
 
-
-  - name: install webserver
+  - name: install git 
     apt:
-       name: git
-       state: present
+       name: git 
+       state: present 
+
+
+
+  
