@@ -4,15 +4,15 @@
   - name: install tree
     apt:
        name: tree
-       state: present 
+       state: present
 
   - name: install webserver 
     apt:
        name: apache2
-       state: present 
+       state: present
 
 
-  - name: install git 
+  - name: install webserver
     apt:
        name: git
-       state: present 
+       state: present
