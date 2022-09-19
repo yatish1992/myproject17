@@ -12,7 +12,7 @@
        state: present 
 
 
-  - name: install  git
+  - name: install git 
     apt:
        name: git
        state: present 
