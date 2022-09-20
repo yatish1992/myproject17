@@ -1,0 +1,9 @@
+--- 
+- hosts: all 
+  bacome: yes 
+  tasks: 
+  - name: i want to install ubuntu webserver 
+    apt: 
+     name: apache2
+     state: present
+      
