@@ -3,8 +3,8 @@
 172.31.35.229
 
 [mywebpages:vars]
-var:value
-mywebpackononubuntu=apache222
+var=value
+mywebpackonubuntu=apache2
 mywebpackonRedHat=httpd
 
 
