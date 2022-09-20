@@ -4,7 +4,7 @@
 
 [prject01:vars]
 var=value
-mywebpackonubuntu=apache2
-mywebpackonRedHat=httpd
+mywebpackonubuntu=apache222
+mywebpackonRedHat=httpddd
 
 
