@@ -1,5 +1,5 @@
 --- 
-- hosts: myjavaserver
+- hosts: 172.31.36.138
   become: yes 
   tasks: 
   - name: want to install java on ubuntu
