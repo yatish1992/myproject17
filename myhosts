@@ -4,5 +4,5 @@
 
 [mywebserver:vars]
 var=value
-myviratonubuntu=apache222
+myviratonubuntu=apache2
 myviratonRedHat=httpd
