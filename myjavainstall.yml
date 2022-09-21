@@ -1,0 +1,14 @@
+--- 
+- hosts: all 
+  become: yes 
+  tasks: 
+  - name: want to install java on ubuntu
+    apt: 
+      name: openjdk-8-jre
+      state: present 
+
+
+  - name: want to install java on RedHat 
+    yum: 
+      name: java-1.8.0-openjdk
+      state: present 

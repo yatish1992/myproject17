@@ -9,5 +9,6 @@
 var=value
 viratonubuntu=apache2
 viratonRedHat=httpd
-
+viratjavaonubuntu=openjdk-8-jre
+viratjavaonRedHat=java-1.8.0-openjdk
 
