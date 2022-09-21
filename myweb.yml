@@ -4,25 +4,25 @@
   tasks: 
   - name: i want to install ubuntu webserver
     apt: 
-      name: apache2
+      name: "{{myviratonubuntu}}"
       state: present
     when: ansible_os_family=="Debain"
 
   - name: i want to start webserver on ubuntu nodes
     service:
-     name: apache2
+     name: "{{myviratonubuntu}}"
      state: started
     when: ansible_os_family=="Debain"
 
   - name: i want to install RedHat webserver
     yum: 
-      name: httpd 
+      name: "{{myviratonRedHat}}"
       state: present
     when: ansible_os_family=="RedHat"    
 
   - name: i want to start webserver on RedHat nodes
     service:
-     name: httpd
+     name: "{{myviratonRedHat}}"
      state: started
     when: ansible_os_family=="RedHat"
 
