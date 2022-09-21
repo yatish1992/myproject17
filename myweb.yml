@@ -5,4 +5,7 @@
   - name: i want to install ubuntu webserver
     apt: 
       name: apache2
-      state: present 
+      state: present
+    when: ansible_os_family=="Debain"
+
+    
