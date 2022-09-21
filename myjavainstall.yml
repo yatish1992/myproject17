@@ -1,15 +1,15 @@
 --- 
-- hosts: all
+- hosts: myproject17
   become: yes 
   tasks: 
   - name: want to install java on ubuntu nodes
     apt: 
-      name: openjdk-8-jre
+      name: "{{viratjavaonubuntu}}"
       state: present 
     when: ansible_os_family=="Debain"
 
   - name: want to install java on RedHat nodes
     yum: 
-      name: java-1.8.0-openjdk
+      name: "{{viratjavaonRedHat}}"
       state: present 
     when: ansible_os_family=="RedHat"  
