@@ -22,7 +22,7 @@
 
   - name: i want to start webserver on RedHat nodes
     service:
-     name: apache2
+     name: httpd
      state: started
     when: ansible_os_family=="RedHat"
 
