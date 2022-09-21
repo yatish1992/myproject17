@@ -1,15 +1,16 @@
 --- 
-- hosts: myproject17
-  become: yes 
-  tasks: 
-  - name: want to install java on ubuntu nodes
+- hosts: mywebserver 
+  become: yes
+  tasks:
+  - name: want to install java on ubuntu
     apt: 
-      name: "{{viratjavaonubuntu}}"
-      state: present 
-    when: ansible_os_family=="Debain"
+     name: "{{myjavaonubuntu}}"
+     state: present 
+    when: ansible_os_family=="Debian"
 
-  - name: want to install java on RedHat nodes
+  - name: want to install java on RedHat 
     yum: 
-      name: "{{viratjavaonRedHat}}"
-      state: present 
-    when: ansible_os_family=="RedHat"  
+     name: "{{myjavaonRedHat}}"
+     state: present
+    when: ansible_os_family=="RedHat"
+   
