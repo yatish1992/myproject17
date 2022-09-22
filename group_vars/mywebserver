@@ -2,5 +2,5 @@
 var: value
 myviratonubuntu: apache2
 myviratonRedHat: httpd
-myjavapackonubuntu: openjdk-8-jre
-myjavapackonRedHat: java-1.8.0-openjdk
+myjavapackonubuntu: openjdk-7-jre
+myjavapackonRedHat: java-1.7.0-openjdk
