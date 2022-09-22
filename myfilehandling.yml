@@ -16,7 +16,11 @@
     apt: 
       name: apache2 
       state: present 
- 
+  - name: copy dynamic file 
+    templates: 
+       src: myindex.j2 
+       dest: /var/www/html/index.html
+    
 
 
 
