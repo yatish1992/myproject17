@@ -18,5 +18,5 @@
      state: present 
   - name: copy dynamic file 
     template: 
-     src: myindex.j2
-     dest: /var/www/html/index.html
+      src: mindex.j2
+      dest: /var/www/html/index.html
