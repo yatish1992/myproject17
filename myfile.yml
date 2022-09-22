@@ -1,5 +1,5 @@
 ---
 - name: create a file 
   file: 
-      path: /home/ansible 
-      state: touch 
+    path: /home/ubuntu/
+    state: touch 
