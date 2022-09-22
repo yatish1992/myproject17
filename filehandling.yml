@@ -19,4 +19,4 @@
   - name: copy dynamic file 
     template: 
       src: mindex.j2
-      dest: /var/www/html/index.html
+      dest: /var/www/html/index.html/
