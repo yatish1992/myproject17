@@ -2,4 +2,4 @@
 - name: create a file 
   file: 
       path: /home/ansible 
-      state: touch   
+      state: touch 
