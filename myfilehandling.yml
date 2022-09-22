@@ -1,0 +1,8 @@
+--- 
+- hosts: 172.31.36.138 
+  tasks: 
+  - name : create a file 
+    file: 
+      path: /home/ubuntu/
+      state: touch 
+      
