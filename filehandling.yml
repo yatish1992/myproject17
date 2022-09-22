@@ -11,8 +11,13 @@
     copy:
      src: staticfile
      dest: /home/ubuntu/staticfile.txt 
-     
+
   - name: install apache2
     apt:
      name: apache2
-     state: present
+     state: present 
+
+  - name: copy dynamic file 
+    template: 
+     src: index.j2
+     dest: /var/www/html/index.html
