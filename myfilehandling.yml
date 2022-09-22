@@ -16,7 +16,6 @@
     apt: 
       name: apache2 
       state: present 
- 
   - name: copy dynamic file 
     templates: 
       scr: myindex.j2
