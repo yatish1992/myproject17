@@ -1,0 +1,8 @@
+--- 
+- hosts: 172.31.36.138
+  become: 
+  tasks:  
+  - name: create a folder 
+    file: 
+       path: /home/ubuntu/ 
+       state: touch  
