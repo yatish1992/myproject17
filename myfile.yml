@@ -1,5 +1,0 @@
---- 
-  - name: create a folder 
-    file: 
-       path: /home/ubuntu
-       state: touch  
