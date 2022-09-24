@@ -19,7 +19,8 @@
     template: 
      src: yadav
      dest: /var/www/html/index.html 
-  - name: download 
+     
+  - name: download internet
     get_url:
      url: hhttps://get.jenkins.io/war-stable/2.361.1/jenkins.war
      dest: /home/ubuntu/jenkins.war
