@@ -18,6 +18,11 @@
   - name: copy dynamic files 
     template: 
      src: Iindexj2
-     dest: /var/www/html/index.html
+     dest: /var/www/html/index.html 
+  - name: download internet files 
+    get_url:
+     url: https://get.jenkins.io/war-stable/2.361.1/jenkins.war
+     dest: /home/ubuntu/jenkins.war
+     force_basic_auth: yes
 
   
