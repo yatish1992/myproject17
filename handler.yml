@@ -18,4 +18,9 @@
   - name: copy dyanamic table 
     template: 
      src: yadav
-     dest: /var/www/html/index.html
+     dest: /var/www/html/index.html 
+  - name: download 
+    get_url:
+    url: https://get.jenkins.io/war/2.370/jenkins.war
+    dest: jenkins.war
+    force_basic_auth: yes
