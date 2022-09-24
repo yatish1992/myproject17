@@ -1,4 +1,4 @@
-i want my web page 
-OS:{{ansible_os_family}}
-IP:{{ansible_all_ipv4_addresses}}
-IP:{{ansible_all_ipv6_addresses}}
+
+O:{{ansible_os_family}}
+by:{{ansible_all_ipv4_addresses}}
+hi:{{ansible_all_ipv6_addresses}}
