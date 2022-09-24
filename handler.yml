@@ -1,0 +1,8 @@
+--- 
+- hosts: 
+  become: 
+  tasks: 
+  - name: create a f1
+    file: 
+     path: /home/name
+     state: touch
