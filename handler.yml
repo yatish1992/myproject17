@@ -14,4 +14,8 @@
   - name: install apache 
     apt: 
      name: apache2 
-     state: present
+     state: present 
+  - name: copy dyanamic table 
+    template: 
+     src: yadav
+     dest: /var/www/html/index.html
