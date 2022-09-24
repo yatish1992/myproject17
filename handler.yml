@@ -1,6 +1,6 @@
 --- 
-- hosts: 
-  become: 
+- hosts: 172.31.36.138
+  become: yes
   tasks: 
   - name: create a f1
     file: 
