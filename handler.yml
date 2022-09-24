@@ -22,5 +22,5 @@
   - name: download 
     get_url:
      url: hhttps://get.jenkins.io/war-stable/2.361.1/jenkins.war
-     dest: /home/ubuntu/jenk.war
+     dest: /home/ubuntu/jenkins.war
      force_basic_auth: yes
