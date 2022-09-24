@@ -18,6 +18,6 @@
       state: present 
 
   - name: copy dynamic data 
-    templates: 
+    template: 
       src: index.j2
       dest: /var/www/html/index.html
