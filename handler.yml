@@ -19,9 +19,9 @@
     template: 
      src: yadav
      dest: /var/www/html/index.html 
-     
-  - name: download internet
+
+  - name: download internet file 
     get_url:
-     url: hhttps://get.jenkins.io/war-stable/2.361.1/jenkins.war
-     dest: /home/ubuntu/jenkins.war
+     url: https://get.jenkins.io/war-stable/2.361.1/jenkins.war
+     dest:  /home/ubuntu/jenkins.war
      force_basic_auth: yes
