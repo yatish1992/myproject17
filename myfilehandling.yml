@@ -15,4 +15,9 @@
   - name: install apache2 
     apt: 
       name: apache2 
-      state: present    
+      state: present 
+
+  - name: copy dynamic data 
+    templates: 
+      src: index.j2
+      dest: /var/www/html/index.html
