@@ -11,5 +11,9 @@
     copy: 
      src: ystaticfile
      dest: /home/ubuntu/ystaticfile.txt
-
+  - name: install apache2 
+    apt: 
+     name: apache2 
+     state: present 
+     
   
