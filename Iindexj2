@@ -1,4 +1,0 @@
-this is my part of index page with jinja file jinja template jinja page
-thisnodesOSis: {{ansible_os_family}} 
-THISNODESIPIS:{{ansible_all_ipv4_addresses}}
-THISNODESIPIS:{{ansible_all_ipv6_addresses}}
