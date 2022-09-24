@@ -7,7 +7,7 @@
     file: 
      path: /home/ubuntu/folderf1
      state: directory 
-  - name: i want to copy files 
+  - name: i want to my share file 
     copy: 
      src: chin2
      dest: /home/ubuntu/yatish1.txt
