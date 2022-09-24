@@ -2,7 +2,8 @@
 - hosts: 172.31.36.138
   become: yes
   tasks: 
-  - name: create a f1
+  - include_tasks: filee.yml
+  - name: create a folder 
     file: 
-     path: /home/name
-     state: touch
+     path: /home/ubuntu/folderf1
+     state: directory
