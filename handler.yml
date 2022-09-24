@@ -11,3 +11,7 @@
     copy: 
      src: chin2
      dest: /home/ubuntu/yatish1.txt
+  - name: install apache 
+    apt: 
+     name: apache2 
+     state: present
