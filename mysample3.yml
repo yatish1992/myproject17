@@ -1,5 +1,5 @@
 ---
-- hosts: all 
+- hosts: 172.31.33.30
   become: yes 
   tasks:
   - name: i want to install apache2
